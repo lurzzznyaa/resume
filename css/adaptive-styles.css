@@ -66,9 +66,22 @@
     width: 60%;
   }
 
+  .sidebar {
+    border: 0;
+    padding: 0;
+  }
+
   header p {
     width: 60%;
     text-align: center;
+  }
+
+  iframe {
+    height: 200px;
+  }
+
+  .footer__links {
+    width: 50%;
   }
 }
 
