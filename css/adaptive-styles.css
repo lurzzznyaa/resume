@@ -3,6 +3,14 @@
     font-size: 14px;
   }
 
+  .header__img {
+    width: 20%;
+  }
+
+  .header__links img {
+    width: 70%;
+  }
+
   .about-me,
   .skills {
     flex-direction: column;
@@ -47,6 +55,10 @@
   .portfolio iframe {
     width: 100%;
   }
+
+  .footer__links img {
+    width: 80%;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -64,6 +76,10 @@
 
   .header__btn_block {
     width: 60%;
+  }
+
+  .header__links {
+    width: 30%;
   }
 
   .sidebar {
